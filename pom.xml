@@ -115,6 +115,15 @@
             </goals>
           </execution>
           <execution>
+            <id>run-npm-install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>install</arguments>
+            </configuration>
+          </execution>
+          <execution>
             <id>run-npm</id>
             <goals>
               <goal>npm</goal>
